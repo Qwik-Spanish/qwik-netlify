@@ -32,6 +32,11 @@
   color: var(--qwik-dark-purple);
 }
 
+img.profile {
+  width: 30% !important;
+  border-radius: 50%;
+}
+
 @media (min-width: 450px) {
   .header li {
     display: inline-block;

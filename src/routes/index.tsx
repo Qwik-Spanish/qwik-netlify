@@ -4,7 +4,6 @@ import type { DocumentHead } from '@builder.io/qwik-city';
 import Counter from '~/components/starter/counter/counter';
 import Hero from '~/components/starter/hero/hero';
 import Infobox from '~/components/starter/infobox/infobox';
-import Starter from '~/components/starter/next-steps/next-steps';
 
 export default component$(() => {
   return (
@@ -12,12 +11,6 @@ export default component$(() => {
       <Hero />
 
       <div class="section bright">
-        <div class="container center">
-          <Starter />
-        </div>
-      </div>
-
-      <div class="section">
         <div class="container center">
           <h3>
             You can <b>count</b> on me
@@ -107,11 +100,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: 'Welcome to Qwik',
+  title: 'Qwik in Netlify',
   meta: [
     {
       name: 'description',
-      content: 'Qwik site description',
+      content: 'Example to use to Deploy in Netlify',
     },
   ],
 };

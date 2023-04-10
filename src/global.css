@@ -54,7 +54,7 @@ h2 {
 
 input[type='text'],
 button {
-  background-color: transparent;
+  background-color: var(--qwik-dark-blue);
   color: white;
   border: 1px solid white;
   border-radius: 12px;
@@ -67,8 +67,8 @@ button {
 }
 
 button:hover {
-  background-color: white;
-  color: var(--qwik-dark-purple);
+  background-color: var(--qwik-light-blue);
+  color: white;
 }
 
 button.small {
