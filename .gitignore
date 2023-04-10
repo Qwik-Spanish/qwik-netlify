@@ -37,6 +37,7 @@ lerna-debug.log*
 .yarn/*
 !.yarn/releases
 package-lock.json
+yarn.lock
 
 # Netlify
 .netlify
